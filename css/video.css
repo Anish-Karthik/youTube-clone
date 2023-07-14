@@ -3,15 +3,30 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+  position: relative;
+  z-index: -1;
 }
 
 
 .thumbnail-row {
     margin-bottom: 12px;
     width: 100%;
+    position: relative;
 }
   .thumbnail {
     width: 100%;
+  }
+  .video-time {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 2px 4px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #030303;
+    font-family: Roboto, Arial, sans-serif;
   }
 
 .video-info-grid {

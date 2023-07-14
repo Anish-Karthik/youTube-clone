@@ -1,0 +1,46 @@
+.right-section {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 18px;
+}
+.right-section .btn {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border: 0 solid rgb(192, 192, 192);
+  border-radius: 100%;
+}
+.notifications-button {
+  position: relative;
+  margin-left: 0;
+}
+.notifications-count {
+  position: absolute;
+  background-color: rgb(199, 24, 24);
+  border-radius: 100%;
+  top: 6px;
+  right: 3px;
+  font: 11px Roboto, Arial, sans-serif;
+  font-weight: 500;
+  color: white;
+  padding: 2px 5px;
+}
+.current-user-picture {
+  height: 32px;
+  border-radius: 100%;
+}
+
+.right-section .btn .icon{
+  height: 23px;
+  border-radius: 100%;
+  transition: background-color 0.05s ease-in-out;
+}
+
+.right-section .btn:hover {
+  background-color: rgb(240, 240, 240);
+}
+.right-section .btn:active {
+  background-color: rgb(224, 224, 224);
+}

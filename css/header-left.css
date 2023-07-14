@@ -1,0 +1,18 @@
+
+.left-section {
+  width: 162px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger-menu {
+  width: 25px;
+  height: 25px;
+  margin-right: 24px;
+  margin-left: 22px;
+}
+
+.youtube-logo {
+  height: 20px;
+}

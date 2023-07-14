@@ -7,6 +7,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/header-left.css">
+  <link rel="stylesheet" href="./css/header-middle.css">
+  <link rel="stylesheet" href="./css/header-right.css">
   <link rel="stylesheet" href="./css/video.css">
   <link rel="stylesheet" href="./css/sidebar.css">
 
@@ -20,32 +23,43 @@
       <img class="hamburger-menu" src="./images/icons/hamburger-menu.svg" alt="menu">
       <img class="youtube-logo" src="./images/icons/youtube-logo.svg" alt="">
     </div>
+
+
     <div class="middle-section">
       <input placeholder="Search" type="text" name="" id="" class="search-bar">
       <button class="search-button">
         <img class="search-icon" src="./images/icons/search.svg" alt="" >
+        <div class="tooltip" >Search</div>
       </button>
       <button class="voice-search-button">
         <img class="voice-search-icon" src="./images/icons/voice-search-icon.svg" alt="">
+        <div class="tooltip" >Search with your voice</div>
       </button>
     </div>
     
+
     <div class="right-section">
-      <button class="upload-button">
-        <img class="upload-icon" src="./images/icons/upload.svg" alt="">
-      </button>
-      <button class="apps-button">
-        <img class="apps-icon" src="./images/icons/youtube-apps.svg" alt="">
-      </button>
-      <button class="notification-button">
-        <img class="notification-icon" src="./images/icons/notifications.svg" alt="">
-      </button>
-      
-      <button class="current-user-button">
+      <div class="btn upload-button">
+        <img class="icon upload-icon" src="./images/icons/upload.svg" alt="">
+        <div class="tooltip" >create</div>
+      </div>
+      <div class="btn apps-button">
+        <img class="icon apps-icon" src="./images/icons/youtube-apps.svg" alt="">
+        <div class="tooltip" >apps</div>
+      </div>
+      <div class="btn notifications-button">
+        <img class="icon notifications-icon" src="./images/icons/notifications.svg" alt="">
+        <div class="notifications-count">3</div>
+        <div class="tooltip" >notifications</div>
+      </div>
+      <div class="btn current-user-button">
         <img class="current-user-picture" src="./images/channel-pictures/my-channel.jpeg" alt="">
-      </button>
+      </div>
     </div>
   </div>
+
+
+
   <div class="sidebar">
     <div class="sidebar-link">
       <img class="sidebar-icon" src="./images/icons/home.svg" alt="">
@@ -72,6 +86,9 @@
       <p class="sidebar-text">Library</p>
     </div>
   </div>
+
+
+
 
   <div class="video-container">
     <div class="video-preview">

@@ -2,10 +2,10 @@
   display: grid;
   column-gap: 16px;
   row-gap: 40px;
-  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* this is continuous media */
   z-index: -1;
 }
-@media (max-width: 550px) {
+/* @media (max-width: 550px) {
   .video-container {
     grid-template-columns: 1fr;
   }
@@ -27,7 +27,7 @@
   .video-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-}  
+}   */
 
 
 .thumbnail-row {

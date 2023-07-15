@@ -19,10 +19,10 @@
 .notifications-count {
   position: absolute;
   background-color: rgb(199, 24, 24);
-  border-radius: 100%;
+  border-radius: 50px;
   top: 6px;
-  right: 3px;
-  font: 11px Roboto, Arial, sans-serif;
+  right: -2px;
+  font-size: 11px;
   font-weight: 500;
   color: white;
   padding: 2px 5px;

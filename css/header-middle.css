@@ -15,7 +15,7 @@
   height: 36px;
   display: flex;
   flex: 1;
-  font: 16px Roboto, Arial, sans-serif; 
+  font-size: 16px;
   padding: 0px 4px 0px 16px;
   background-color: #fafafa;
   border-radius: 3px;

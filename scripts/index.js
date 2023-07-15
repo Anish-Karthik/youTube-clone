@@ -31,13 +31,3 @@ for (const videoPreview of videoPreviews) {
   </a>
   `;
 }
-
-// reload the page
-console.log(document.querySelector("#video-container"));
-console.log(document.getElementsByClassName("sidebar")[0].innerHTML);
-console.log(videoContainer);
-
-// console.log(videoContainer.innerHTML);
-
-
-console.log("index.js loaded");

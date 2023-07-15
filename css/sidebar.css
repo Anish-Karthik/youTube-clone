@@ -1,16 +1,26 @@
+
+#blank-sidebar {
+  position: fixed;
+  top: 55px;
+  bottom: 0;
+  z-index: -1;
+  width: 70px;
+  background-color: white;
+}
+
 .sidebar {
   position: fixed;
-  width: 72px;
-  background-color: white;
-  top: 55px;
-  left: 0;
+  width: 70px;
+  background-color: white; 
+  left: 0; 
+  top: 60px;
   z-index: 100;
   display: flex;
   flex-direction: column;
 }
 
 .sidebar-link{
-  height: 72px;
+  height: 74px;
   width: 100%;
   flex-direction: column;
   display: flex;
@@ -37,3 +47,4 @@
   font-family: Roboto, Arial, sans-serif;
   margin-top: 0;
 }
+
